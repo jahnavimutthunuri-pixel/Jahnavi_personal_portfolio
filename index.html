@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Personal portfolio of Jahnavi, Computer Science and Engineering student.">
+  <meta name="theme-color" content="#101326">
+  <title>Jahnavi | Personal Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <nav class="navbar navbar-expand-lg fixed-top portfolio-nav" aria-label="Main navigation">
+    <div class="container">
+      <a class="navbar-brand brand-mark" href="#home" aria-label="Jahnavi home">J<span>.</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#portfolioNav" aria-controls="portfolioNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="portfolioNav">
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
+          <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          <li class="nav-item ms-lg-2"><button class="theme-toggle" id="themeToggle" type="button" aria-label="Switch to light theme" title="Toggle colour theme"><i class="bi bi-sun-fill" aria-hidden="true"></i></button></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main id="main">
+    <section id="home" class="hero-section section-pad">
+      <div class="container">
+        <div class="row align-items-center gy-5">
+          <div class="col-lg-7">
+            <p class="eyebrow"><span class="eyebrow-line"></span> COMPUTER SCIENCE & ENGINEERING</p>
+            <h1 class="hero-title">Hello, I’m <span class="gradient-text">jahnavi.</span><br> I build thoughtful<br class="d-none d-md-block"> digital experiences.</h1>
+            <p class="hero-copy">An aspiring software developer who enjoys turning ideas into useful, accessible and well-designed applications.</p>
+            <div class="d-flex flex-wrap gap-3 mt-4">
+              <a class="btn btn-primary-custom" href="#projects">Explore my work <i class="bi bi-arrow-up-right ms-2" aria-hidden="true"></i></a>
+              <a class="btn btn-outline-custom" href="#contact">Get in touch</a>
+            </div>
+            <div class="hero-meta mt-5">
+              <span><i class="bi bi-geo-alt" aria-hidden="true"></i> Hyderabad, India</span>
+              <span><i class="bi bi-mortarboard" aria-hidden="true"></i> CSE Undergraduate</span>
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <div class="hero-art" aria-label="Decorative abstract portfolio illustration">
+              <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+              <div class="profile-tile">
+                <div class="profile-initials">PA</div>
+                <div class="profile-caption"><span class="status-dot"></span> Open to learning & opportunities</div>
+              </div>
+              <div class="floating-chip chip-code"><i class="bi bi-code-slash"></i> Clean code</div>
+              <div class="floating-chip chip-idea"><i class="bi bi-lightbulb"></i> Curious mind</div>
+              <div class="sparkle sparkle-one">✳</div><div class="sparkle sparkle-two">✦</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="hero-bottom container"><span>SCROLL TO DISCOVER</span><span class="scroll-line"></span></div>
+    </section>
+
+    <section id="about" class="section-pad section-soft">
+      <div class="container">
+        <div class="section-heading"><p class="eyebrow">A LITTLE INTRODUCTION</p><h2>About <span class="gradient-text">me</span></h2></div>
+        <div class="row g-4 align-items-start">
+          <div class="col-lg-7"><p class="large-copy">I’m a Computer Science and Engineering student at Stanley College of Engineering and Technology for Women, with an interest in software development and practical problem-solving.</p>
+            <p class="body-copy">I enjoy learning by building. From designing responsive interfaces to connecting applications with databases, I like understanding how each part of a product works together. I value curiosity, consistency and clear communication, and I’m always looking for opportunities to strengthen my skills through meaningful projects.</p>
+          </div>
+          <div class="col-lg-5"><div class="about-card">
+            <div class="about-stat"><strong>01</strong><span>Build with purpose</span></div>
+            <div class="about-stat"><strong>02</strong><span>Learn continuously</span></div>
+            <div class="about-stat"><strong>03</strong><span>Keep improving</span></div>
+            <p class="small-note mb-0">My approach: stay curious, work with care, and make progress one step at a time.</p>
+          </div></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="section-pad">
+      <div class="container">
+        <div class="section-heading"><p class="eyebrow">MY LEARNING JOURNEY</p><h2>Education</h2></div>
+        <div class="table-responsive education-wrap">
+          <table class="table education-table align-middle mb-0">
+            <caption class="visually-hidden">Academic background</caption>
+            <thead><tr><th scope="col">Qualification</th><th scope="col">Institution</th><th scope="col">Specialisation</th><th scope="col">Status</th></tr></thead>
+            <tbody>
+              <tr><td><strong>Bachelor of Technology</strong><span class="table-sub">Undergraduate</span></td><td>Stanley College of Engineering and Technology for Women</td><td>Computer Science & Engineering</td><td><span class="status-pill">8.5 CGPA</span></td></tr>
+              <tr><td><strong>Intermediate</strong><span class="table-sub">Higher Secondary</span></td><td>SRR college</td><td>Intermediate</td><td><span class="status-pill status-complete">8.65 CGPA</span></td></tr>
+              <tr><td><strong>SSC</strong><span class="table-sub">Secondary School</span></td><td>BLUE BIRDS high school</td><td>General Education</td><td><span class="status-pill status-complete">10 CGPA</span></td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="edit-hint"><i class="bi bi-check-circle me-1"></i> Academic details updated with the provided institutions and CGPAs.</p>
+      </div>
+    </section>
+
+    <section id="skills" class="section-pad section-soft">
+      <div class="container">
+        <div class="section-heading"><p class="eyebrow">WHAT I WORK WITH</p><h2>Skills & <span class="gradient-text">tools</span></h2><p class="section-intro">A growing toolkit for creating and developing web applications.</p></div>
+        <div class="row g-3">
+          <div class="col-md-6 col-lg-3"><article class="skill-card h-100"><div class="skill-icon"><i class="bi bi-window"></i></div><h3>Frontend</h3><ul><li>HTML5</li><li>CSS3</li><li>Bootstrap</li><li>JavaScript (ES6+)</li></ul></article></div>
+          <div class="col-md-6 col-lg-3"><article class="skill-card h-100"><div class="skill-icon"><i class="bi bi-terminal"></i></div><h3>Programming</h3><ul><li>Python</li><li>Java fundamentals</li><li>Problem solving</li></ul></article></div>
+          <div class="col-md-6 col-lg-3"><article class="skill-card h-100"><div class="skill-icon"><i class="bi bi-database"></i></div><h3>Backend & data</h3><ul><li>Flask</li><li>Node.js fundamentals</li><li>MySQL</li></ul></article></div>
+          <div class="col-md-6 col-lg-3"><article class="skill-card h-100"><div class="skill-icon"><i class="bi bi-tools"></i></div><h3>Tools</h3><ul><li>Git & GitHub</li><li>VS Code</li><li>MySQL Workbench</li></ul></article></div>
+        </div>
+        <p class="small-note mt-3">Skill list reflects technologies explored in coursework and projects. Adjust it to match your current proficiency.</p>
+      </div>
+    </section>
+
+    <section id="projects" class="section-pad">
+      <div class="container">
+        <div class="section-heading"><p class="eyebrow">SELECTED WORK</p><h2>Projects that <span class="gradient-text">I’ve built</span></h2><p class="section-intro">A selection of academic and practice projects focused on applying concepts to real use cases.</p></div>
+        <div class="project-filters d-flex flex-wrap gap-2 mb-4" role="group" aria-label="Filter projects">
+          <button class="filter-btn active" type="button" data-filter="all" aria-pressed="true">All projects</button>
+          <button class="filter-btn" type="button" data-filter="web" aria-pressed="false">Web development</button>
+          <button class="filter-btn" type="button" data-filter="data" aria-pressed="false">Data & ML</button>
+        </div>
+        <div class="row g-4" id="projectGrid">
+          <div class="col-md-6 project-item" data-category="web"><article class="project-card h-100">
+            <div class="project-visual visual-purple"><span class="visual-label">01 / WEB APPLICATION</span><i class="bi bi-folder2-open" aria-hidden="true"></i></div>
+            <div class="project-content"><div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Flask</span><span>MySQL</span></div><h3>Integrated Patient Record & Document Management System</h3><p>A web-based system concept for organising patient information and related documents, with a structured interface and database-backed records.</p><div class="project-foot"><span>Academic mini project</span><i class="bi bi-arrow-up-right" aria-hidden="true"></i></div></div>
+          </article></div>
+          <div class="col-md-6 project-item" data-category="data"><article class="project-card h-100">
+            <div class="project-visual visual-blue"><span class="visual-label">02 / MACHINE LEARNING</span><i class="bi bi-graph-up-arrow" aria-hidden="true"></i></div>
+            <div class="project-content"><div class="project-tags"><span>Python</span><span>Pandas</span><span>Scikit-learn</span></div><h3>social networking and mmatchmaking platform</h3><p>Social networking and matchmaking platforms have become an essential part of modern communication, enabling people to connect, interact, and build meaningful relationships</p><div class="project-foot"><span>Practice project</span><i class="bi bi-arrow-up-right" aria-hidden="true"></i></div></div>
+          </article></div>
+          <div class="col-md-6 project-item" data-category="web"><article class="project-card h-100">
+            <div class="project-visual visual-orange"><span class="visual-label">03 / FRONTEND</span><i class="bi bi-person-badge" aria-hidden="true"></i></div>
+            <div class="project-content"><div class="project-tags"><span>HTML5</span><span>Bootstrap</span><span>ES6+</span></div><h3>Artificial intelligence and cyber security</h3><p>The Periodic Table is a systematic arrangement of chemical elements based on their atomic number, electron configuration, and recurring chemical properties..</p><div class="project-foot"><span>Current assignment</span><i class="bi bi-arrow-up-right" aria-hidden="true"></i></div></div>
+          </article></div>
+        </div>
+        <p class="small-note mt-3">Project descriptions are concise summaries. Add repository links and verified outcomes when your projects are published.</p>
+      </div>
+    </section>
+
+  
+
+    <section id="contact" class="section-pad contact-section">
+      <div class="container">
+        <div class="row g-5">
+          <div class="col-lg-5"><div class="section-heading"><p class="eyebrow">LET’S CONNECT</p><h2>Have a project<br>in <span class="gradient-text">mind?</span></h2></div>
+            <p class="body-copy">I’m open to connecting with fellow learners, exploring project ideas and learning about opportunities to grow. Send me a message.</p>
+            <div class="contact-detail"><i class="bi bi-envelope"></i><div><span>Email</span><a href="mailto:aasritha@example.com">Add your email address</a></div></div>
+            <div class="contact-detail"><i class="bi bi-github"></i><div><span>GitHub</span><a href="https://github.com/" target="_blank" rel="noopener noreferrer">Add your GitHub profile</a></div></div>
+            <div class="contact-detail"><i class="bi bi-linkedin"></i><div><span>LinkedIn</span><a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">Add your LinkedIn profile</a></div></div>
+          </div>
+          <div class="col-lg-7"><form id="contactForm" class="contact-form" novalidate>
+            <div class="row g-3">
+              <div class="col-md-6"><label for="fullName" class="form-label">Your name</label><input class="form-control" id="fullName" name="fullName" type="text" autocomplete="name" required minlength="2" placeholder="Enter your name"><div class="invalid-feedback">Please enter at least 2 characters.</div></div>
+              <div class="col-md-6"><label for="email" class="form-label">Email address</label><input class="form-control" id="email" name="email" type="email" autocomplete="email" required placeholder="name@example.com"><div class="invalid-feedback">Please enter a valid email address.</div></div>
+              <div class="col-12"><label for="subject" class="form-label">Subject</label><input class="form-control" id="subject" name="subject" type="text" required placeholder="What would you like to discuss?"><div class="invalid-feedback">Please add a subject.</div></div>
+              <div class="col-12"><label for="message" class="form-label">Message</label><textarea class="form-control" id="message" name="message" rows="5" required minlength="10" placeholder="Write your message..."></textarea><div class="invalid-feedback">Please enter a message of at least 10 characters.</div></div>
+              <div class="col-12"><button class="btn btn-primary-custom" type="submit">Send message <i class="bi bi-send ms-2" aria-hidden="true"></i></button></div>
+            </div>
+            <div id="formFeedback" class="form-feedback mt-3" role="status" aria-live="polite"></div>
+            <p class="form-note mt-2">Demo form: validation runs in your browser. Connect a backend or form service to receive messages.</p>
+          </form></div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-2"><span>© <span id="year"></span> Aasritha. Designed with intention.</span><a href="#home">Back to top <i class="bi bi-arrow-up" aria-hidden="true"></i></a></div></footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
